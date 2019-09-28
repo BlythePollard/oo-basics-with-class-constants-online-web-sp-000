@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     # if brand != previous brand in array
     BRANDS << brand
-    BRANDS.uniq
+    BRANDS.uniq!
   end
 
   def cobble
