@@ -5,6 +5,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    # if brand != previous brand in array
     BRANDS << brand
   end
 
