@@ -5,7 +5,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS.uniq 
+    BRANDS.uniq {|name| 
     # if brand != previous brand in array
     BRANDS << brand
   end
