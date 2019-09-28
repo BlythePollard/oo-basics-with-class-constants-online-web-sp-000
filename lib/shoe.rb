@@ -10,6 +10,8 @@ class Shoe
     BRANDS.uniq!
   end
 
+#unless BRANDS.include?(brand)
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
